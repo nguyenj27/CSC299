@@ -51,7 +51,7 @@ txhash = web3.eth.getBlock (1788439)
 web3.eth.getTransaction (txhash)
 web3.eth.getTransaction (txhash).value
 
-def ugh2():
+def test2():
 	for i in range (100000, 100010):
 		trans=(web3.eth.getBlock (i).transactions)
 		print (trans)
@@ -63,7 +63,7 @@ def ugh2():
 				print (val)
 
 
-		
+'''		
 
 
 		val= web3.eth.getTransaction (i).value
@@ -91,3 +91,5 @@ web3.eth.getBlock(199999).transactions
 val=trans[0]
 
 web3.eth.getTransaction (block).value
+
+'''
